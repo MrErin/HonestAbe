@@ -1,0 +1,198 @@
+{
+    "Politician": [
+        {
+            "PoliticianID" : 1,
+            "PoliticianName" : "Honest Abe"
+        },
+        {
+            "PoliticianID" : 2,
+            "PoliticianName" : "Shady Steve"
+        }
+    ],
+    "Corporation": [
+        {
+            "CorporationID" : 1,
+            "CorporationName" : "Totally Legit Corp."
+        },
+        {
+            "CorporationID" : 2,
+            "CorporationName" : "Definitely Real Gizmos"
+        },
+        {
+            "CorporationID" : 3,
+            "CorporationName" : "Benevolent Puppy Kicking Inc."
+        }
+    ],
+    "PoliticalActionCommittee" : [
+        {
+            "PACID" : 1,
+            "PACName" : "HonestPAC"
+        },
+        {
+            "PACID" : 2,
+            "PACName" : "ShadyPAC"
+        },
+        {
+            "PACID" : 3,
+            "PACName" : "Morally Ambiguous Money"
+        }
+    ],
+    "LegislativeBill" : [
+        {
+            "BillID" : 1,
+            "BillName" : "Resolution In Favor of Puppy Kicking fer 'Merica"
+        },
+        {
+            "BillID" : 2,
+            "BillName" : "Gizmo Ban of 2018"
+        },
+        {
+            "BillID" : 3,
+            "BillName" : "The Bandit Code Act"
+        }
+    ],
+    "DonationsToPols" : [
+        {
+            "DonationToPolsID": 1,
+            "OriginPACID": 1,
+            "ReceivePoliticianID": 1,
+            "DonationDate": "2018-01-01",
+            "DonationAmount": 250            
+        },
+        {
+            "DonationToPolsID": 2,
+            "OriginPACID": 1,
+            "ReceivePoliticianID": 2,
+            "DonationDate": "2018-01-01",
+            "DonationAmount": 10
+        },
+        {
+            "DonationToPolsID": 3,
+            "OriginPACID": 2,
+            "ReceivePoliticianID": 2,
+            "DonationDate": "2018-02-01",
+            "DonationAmount": 2500
+        },
+        {
+            "DonationToPolsID": 4,
+            "OriginPACID": 2,
+            "ReceivePoliticianID": 1,
+            "DonationDate": "2017-01-01",
+            "DonationAmount": 2
+        },
+        {
+            "DonationToPolsID": 5,
+            "OriginPACID": 2,
+            "ReceivePoliticianID": 2,
+            "DonationDate": "2018-03-01",
+            "DonationAmount": 25000
+        },
+        {
+            "DonationToPolsID": 6,
+            "OriginPACID": 3,
+            "ReceivePoliticianID": 1,
+            "DonationDate": "2018-01-24",
+            "DonationAmount": 2500
+        },
+        {
+            "DonationToPolsID": 7,
+            "OriginPACID": 3,
+            "ReceivePoliticianID": 2,
+            "DonationDate": "2018-01-24",
+            "DonationAmount": 2500
+        }
+    ],
+    "BillBeneficiaries": [
+        {
+            "BillID": 1,
+            "CorporationID": 3
+        },
+        {
+            "BillID": 1,
+            "CorporationID": 1
+        },
+        {
+            "BillID": 2,
+            "CorporationID": 3
+        },
+        {
+            "BillID": 2,
+            "CorporationID": 1
+        },
+        {
+            "BillID": 3,
+            "CorporationID": 1
+        }
+    ],
+    "DonationsToPACs" : [
+        {
+            "DonationToPACsID": 1,
+            "OriginCorporationID": 1,
+            "ReceivePACID": 2,
+            "DonationDate": "2018-02-02",
+            "DonationAmount": 2500
+        },
+        {
+            "DonationToPACsID": 2,
+            "OriginCorporationID": 3,
+            "ReceivePACID": 2,
+            "DonationDate": "2017-01-02",
+            "DonationAmount": 2
+        },
+        {
+            "DonationToPACsID": 3,
+            "OriginCorporationID": 2,
+            "ReceivePACID": 1,
+            "DonationDate": "2018-01-02",
+            "DonationAmount": 250
+        },
+        {
+            "DonationToPACsID": 4,
+            "OriginCorporationID": 3,
+            "ReceivePACID": 1,
+            "DonationDate": "2018-01-02",
+            "DonationAmount": 10
+        },
+        {
+            "DonationToPACsID": 5,
+            "OriginCorporationID": 1,
+            "ReceivePACID": 2,
+            "DonationDate": "2018-03-02",
+            "DonationAmount": 25000
+        },
+        {
+            "DonationToPACsID": 6,
+            "OriginCorporationID": 1,
+            "ReceivePACID": 3,
+            "DonationDate": "2018-01-25",
+            "DonationAmount": 2500
+        },
+        {
+            "DonationToPACsID": 7,
+            "OriginCorporationID": 2,
+            "ReceivePACID": 3,
+            "DonationDate": "2018-01-25",
+            "DonationAmount": 2500
+        }
+
+    ],
+    "BillSponsors": [
+        {
+            "BillID": 1,
+            "PoliticianID": 2
+        },
+        {
+            "BillID": 2,
+            "PoliticianID": 1
+        },
+        {
+            "BillID": 3,
+            "PoliticianID": 1
+        },
+        {
+            "BillID": 3,
+            "PoliticianID": 2
+        }
+    ]
+
+}

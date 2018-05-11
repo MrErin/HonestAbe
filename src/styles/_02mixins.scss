@@ -1,16 +1,16 @@
 /*
 
- Mixins
+Mixins
 
- Mixin tutorial
- https: //scotch.io/tutorials/how-to-use-sass-mixins
+Mixin tutorial
+https: //scotch.io/tutorials/how-to-use-sass-mixins
 
- Some more useful mixins
- http: //zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/
+Some more useful mixins
+http: //zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/
 
 */
 
-// provides a px fallback if the browser doesn't support rem units
+// provides a px fallback if the browser doesn'\''t support rem units
 // uses golden ratio to calculate line height from font size
 // usage example: @include font-size($body-font-size);
 @mixin font-size($size: 1.6, $line: $size * 1.5) {
@@ -35,8 +35,7 @@
     @return $num / ($num * 0 + 1);
 }
 
-
-//provides a px fallback if the browser doesn't support rem units
+//provides a px fallback if the browser doesn'\''t support rem units
 // usage example: @include rem-fallback(margin, 0, 0, 0, 2.4)
 @mixin rem-fallback($property, $values...) {
     $max: length($values);

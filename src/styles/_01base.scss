@@ -1,5 +1,5 @@
 /*
- ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ 
+▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ 
 ▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
 ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ 
 ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          ▐░▌          
@@ -9,13 +9,13 @@
 ▐░▌       ▐░▌▐░▌       ▐░▌          ▐░▌▐░▌          
 ▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌ ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ 
 ▐░░░░░░░░░░▌ ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
- ▀▀▀▀▀▀▀▀▀▀   ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ 
+▀▀▀▀▀▀▀▀▀▀   ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ 
 
- CSS Reset
+CSS Reset
 
- http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html,
@@ -67,7 +67,6 @@ dd,
 ol,
 ul,
 li,
-fieldset,
 form,
 label,
 legend,
@@ -149,15 +148,26 @@ table {
     border-spacing: 0;
 }
 
-
-
 /* Float Clearing */
-.author-box, .clearfix, .entry, .entry-content, .footer-widgets, .nav-primary, .nav-secondary, .pagination, .site-container, .site-footer, .site-header, .site-inner, .wrap {
-    &:before{
+
+.author-box,
+.clearfix,
+.entry,
+.entry-content,
+.footer-widgets,
+.nav-primary,
+.nav-secondary,
+.pagination,
+.site-container,
+.site-footer,
+.site-header,
+.site-inner,
+.wrap {
+    &:before {
         content: "";
         display: table;
     }
-    &:after{
+    &:after {
         clear: both;
         content: "";
         display: table;
